@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[sendInvalidAmountTest--------TEST SCRIPT EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[sendInvalidAmountTest--------EXECUTED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[enteringWrongPinWhileSendingMoneyTest--------TEST SCRIPT EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[enteringWrongPinWhileSendingMoneyTest--------EXECUTED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[sendingMoneyToContactAndValidateBalanceTest--------TEST SCRIPT EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[sendingMoneyToContactAndValidateBalanceTest--------EXECUTED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[checkingBalanceAndVerifyTest--------TEST SCRIPT EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[checkingBalanceAndVerifyTest--------EXECUTED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[verifyLanguageTest--------TEST SCRIPT EXECUTION STARTED]]>
+    </line>
+    <line>
+      <![CDATA[verifyLanguageTest--------EXECUTED SUCCESSFULLY]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-18T13:53:23 IST" name="Suite" finished-at="2023-07-18T13:57:30 IST" duration-ms="247611">
+    <groups>
+    </groups>
+    <test started-at="2023-07-18T13:53:23 IST" name="Test" finished-at="2023-07-18T13:57:30 IST" duration-ms="247611">
+      <class name="com.bhim.npci.endtoend.LanguageTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.bhim.npci.endtoend.LanguageTest@2aceadd4]" started-at="2023-07-18T13:56:49 IST" name="config_BC" finished-at="2023-07-18T13:56:57 IST" duration-ms="7921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method signature="verifyLanguageTest()[pri:0, instance:com.bhim.npci.endtoend.LanguageTest@2aceadd4]" started-at="2023-07-18T13:56:57 IST" name="verifyLanguageTest" finished-at="2023-07-18T13:57:24 IST" duration-ms="26864" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyLanguageTest--------TEST SCRIPT EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[verifyLanguageTest--------EXECUTED SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLanguageTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.bhim.npci.endtoend.LanguageTest@2aceadd4]" started-at="2023-07-18T13:57:24 IST" name="config_AM" finished-at="2023-07-18T13:57:30 IST" duration-ms="6313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.bhim.npci.endtoend.LanguageTest@2aceadd4]" started-at="2023-07-18T13:57:30 IST" name="config_AC" finished-at="2023-07-18T13:57:30 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.bhim.npci.endtoend.LanguageTest -->
+      <class name="com.bhim.npci.endtoend.HomeTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.bhim.npci.endtoend.HomeTest@24269709]" started-at="2023-07-18T13:55:58 IST" name="config_BC" finished-at="2023-07-18T13:56:06 IST" duration-ms="7963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method signature="checkingBalanceAndVerifyTest()[pri:0, instance:com.bhim.npci.endtoend.HomeTest@24269709]" started-at="2023-07-18T13:56:06 IST" name="checkingBalanceAndVerifyTest" finished-at="2023-07-18T13:56:42 IST" duration-ms="36358" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[checkingBalanceAndVerifyTest--------TEST SCRIPT EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[checkingBalanceAndVerifyTest--------EXECUTED SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkingBalanceAndVerifyTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.bhim.npci.endtoend.HomeTest@24269709]" started-at="2023-07-18T13:56:42 IST" name="config_AM" finished-at="2023-07-18T13:56:49 IST" duration-ms="6109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.bhim.npci.endtoend.HomeTest@24269709]" started-at="2023-07-18T13:56:49 IST" name="config_AC" finished-at="2023-07-18T13:56:49 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.bhim.npci.endtoend.HomeTest -->
+      <class name="com.bhim.npci.endtoend.TransactionTest">
+        <test-method is-config="true" signature="config_BS()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:53:11 IST" name="config_BS" finished-at="2023-07-18T13:53:23 IST" duration-ms="11555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:53:23 IST" name="config_BC" finished-at="2023-07-18T13:53:35 IST" duration-ms="11989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method signature="sendInvalidAmountTest()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:53:35 IST" name="sendInvalidAmountTest" finished-at="2023-07-18T13:54:04 IST" duration-ms="28880" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[sendInvalidAmountTest--------TEST SCRIPT EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[sendInvalidAmountTest--------EXECUTED SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendInvalidAmountTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:54:04 IST" name="config_AM" finished-at="2023-07-18T13:54:09 IST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method signature="enteringWrongPinWhileSendingMoneyTest()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:54:09 IST" name="enteringWrongPinWhileSendingMoneyTest" finished-at="2023-07-18T13:54:43 IST" duration-ms="33211" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[enteringWrongPinWhileSendingMoneyTest--------TEST SCRIPT EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[enteringWrongPinWhileSendingMoneyTest--------EXECUTED SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enteringWrongPinWhileSendingMoneyTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:54:43 IST" name="config_AM" finished-at="2023-07-18T13:54:48 IST" duration-ms="5038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method signature="sendingMoneyToContactAndValidateBalanceTest()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:54:48 IST" name="sendingMoneyToContactAndValidateBalanceTest" finished-at="2023-07-18T13:55:53 IST" duration-ms="65330" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[sendingMoneyToContactAndValidateBalanceTest--------TEST SCRIPT EXECUTION STARTED]]>
+            </line>
+            <line>
+              <![CDATA[sendingMoneyToContactAndValidateBalanceTest--------EXECUTED SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendingMoneyToContactAndValidateBalanceTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:55:53 IST" name="config_AM" finished-at="2023-07-18T13:55:58 IST" duration-ms="4754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:55:58 IST" name="config_AC" finished-at="2023-07-18T13:55:58 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:com.bhim.npci.endtoend.TransactionTest@367ffa75]" started-at="2023-07-18T13:57:31 IST" name="config_AS" finished-at="2023-07-18T13:57:31 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- com.bhim.npci.endtoend.TransactionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
